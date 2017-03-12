@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: POSTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP596.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../cppunit/include" /I "../pos" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_UNIT_TEST_" /Fp"../temp/POSTest/Debug/POSTest.pch" /Yu"stdafx.h" /Fo"../temp/POSTest/Debug/" /Fd"../temp/POSTest/Debug/" /FD /GZ /c 
+"G:\pos\pos\EagleVision0SParser.cpp"
+"G:\pos\pos\ParserFactory.cpp"
+"G:\pos\postest\ParserFactoryTest.cpp"
+"G:\pos\pos\StreamReceiver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP596.tmp" 
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP597.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cppunitd.lib /nologo /subsystem:console /incremental:yes /pdb:"../temp/POSTest/Debug/POSTest.pdb" /debug /machine:I386 /out:"../temp/POSTest/Debug/POSTest.exe" /pdbtype:sept /libpath:"../cppunit/lib" 
+\pos\temp\POSTest\Debug\BinaryStream.obj
+\pos\temp\POSTest\Debug\BinaryStreamTest.obj
+\pos\temp\POSTest\Debug\EagleVision0SParser.obj
+\pos\temp\POSTest\Debug\EagleVision0SParserTest.obj
+\pos\temp\POSTest\Debug\Parser.obj
+\pos\temp\POSTest\Debug\ParserFactory.obj
+\pos\temp\POSTest\Debug\ParserFactoryTest.obj
+\pos\temp\POSTest\Debug\POSTest.obj
+\pos\temp\POSTest\Debug\Receiver.obj
+\pos\temp\POSTest\Debug\ReceiverStub.obj
+\pos\temp\POSTest\Debug\StdAfx.obj
+\pos\temp\POSTest\Debug\StreamReceiver.obj
+\pos\temp\POSTest\Debug\StreamReceiverTest.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP597.tmp"
+<h3>Output Window</h3>
+Compiling...
+EagleVision0SParser.cpp
+ParserFactory.cpp
+StreamReceiver.cpp
+Generating Code...
+Compiling...
+ParserFactoryTest.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP598.bat" with contents
+[
+@echo off
+\pos\temp\POSTest\Debug\POSTest.exe
+]
+Creating command line "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP598.bat"
+Unit Testing ...
+...............................................
+
+OK (47)
+<h3>
+--------------------Configuration: POS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP599.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "POS_Dll_EXPORTS" /Fp"../temp/POS/Debug/POS.pch" /Yu"stdafx.h" /Fo"../temp/POS/Debug/" /Fd"../temp/POS/Debug/" /FD /GZ /c 
+"G:\pos\pos\EagleVision0SParser.cpp"
+"G:\pos\pos\ParserFactory.cpp"
+"G:\pos\pos\POS.cpp"
+"G:\pos\pos\SerialPort.cpp"
+"G:\pos\pos\StreamReceiver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP599.tmp" 
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP59A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../temp/POS/Debug/POS.pdb" /debug /machine:I386 /out:"../temp/POS/Debug/POS.dll" /implib:"../temp/POS/Debug/POS.lib" /pdbtype:sept 
+\pos\temp\POS\Debug\BinaryStream.obj
+\pos\temp\POS\Debug\EagleVision0SParser.obj
+\pos\temp\POS\Debug\Parser.obj
+\pos\temp\POS\Debug\ParserFactory.obj
+\pos\temp\POS\Debug\POS.obj
+\pos\temp\POS\Debug\Receiver.obj
+\pos\temp\POS\Debug\SerialPort.obj
+\pos\temp\POS\Debug\StdAfx.obj
+\pos\temp\POS\Debug\StreamReceiver.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP59A.tmp"
+<h3>Output Window</h3>
+Compiling...
+EagleVision0SParser.cpp
+ParserFactory.cpp
+StreamReceiver.cpp
+Generating Code...
+Compiling...
+POS.cpp
+SerialPort.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP59B.bat" with contents
+[
+@echo off
+copy \pos\temp\POS\Debug\POS.dll ..\pgm\Debug\POS.dll
+copy ..\temp\POS\Debug\POS.lib ..\pgm\Debug\POS.lib
+]
+Creating command line "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP59B.bat"
+***Copy OUTPUT File to Pgm DIR***
+        1 file(s) copied.
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+POS.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

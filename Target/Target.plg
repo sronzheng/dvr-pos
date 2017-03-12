@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Target - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP266.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../pos/" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"../temp/Target/Debug/Target.pch" /Yu"stdafx.h" /Fo"../temp/Target/Debug/" /Fd"../temp/Target/Debug/" /FD /GZ /c 
+"G:\work\0220\1340\POS\Target\WndReceiver.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP266.tmp" 
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP267.tmp" with contents
+[
+POS.lib /nologo /subsystem:windows /incremental:yes /pdb:"../temp/Target/Debug/Target.pdb" /debug /machine:I386 /out:"../temp/Target/Debug/Target.exe" /pdbtype:sept /libpath:"..\pgm\Debug\\" 
+\work\0220\1340\POS\temp\Target\Debug\ConfigureDlg.obj
+\work\0220\1340\POS\temp\Target\Debug\Receiver.obj
+\work\0220\1340\POS\temp\Target\Debug\StdAfx.obj
+\work\0220\1340\POS\temp\Target\Debug\Target.obj
+\work\0220\1340\POS\temp\Target\Debug\TargetDlg.obj
+\work\0220\1340\POS\temp\Target\Debug\WndReceiver.obj
+\work\0220\1340\POS\temp\Target\Debug\XmlFileReceiver.obj
+\work\0220\1340\POS\temp\Target\Debug\Target.res
+\work\0220\1340\POS\temp\POS\Debug\POS.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP267.tmp"
+<h3>Output Window</h3>
+Compiling...
+WndReceiver.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP268.bat" with contents
+[
+@echo off
+copy \work\0220\1340\POS\temp\Target\Debug\Target.exe ..\pgm\Debug\Target.exe
+]
+Creating command line "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP268.bat"
+***Copy OUTPUT File to Pgm DIR***
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+Target.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

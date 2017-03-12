@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: POSTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1C9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../cppunit/include" /I "../pos" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_UNIT_TEST_" /Fp"../temp/POSTest/Debug/POSTest.pch" /Yu"stdafx.h" /Fo"../temp/POSTest/Debug/" /Fd"../temp/POSTest/Debug/" /FD /GZ /c 
+"G:\pos\postest\BinaryStreamTest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1C9.tmp" 
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1CA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cppunitd.lib /nologo /subsystem:console /incremental:yes /pdb:"../temp/POSTest/Debug/POSTest.pdb" /debug /machine:I386 /out:"../temp/POSTest/Debug/POSTest.exe" /pdbtype:sept /libpath:"../cppunit/lib" 
+\pos\temp\POSTest\Debug\BinaryStream.obj
+\pos\temp\POSTest\Debug\BinaryStreamTest.obj
+\pos\temp\POSTest\Debug\EagleVision0SParser.obj
+\pos\temp\POSTest\Debug\EagleVision0SParserTest.obj
+\pos\temp\POSTest\Debug\Parser.obj
+\pos\temp\POSTest\Debug\ParserFactory.obj
+\pos\temp\POSTest\Debug\ParserFactoryTest.obj
+\pos\temp\POSTest\Debug\POSTest.obj
+\pos\temp\POSTest\Debug\Receiver.obj
+\pos\temp\POSTest\Debug\ReceiverStub.obj
+\pos\temp\POSTest\Debug\StdAfx.obj
+\pos\temp\POSTest\Debug\StreamReceiver.obj
+\pos\temp\POSTest\Debug\StreamReceiverTest.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1CA.tmp"
+<h3>Output Window</h3>
+Compiling...
+BinaryStreamTest.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1CB.bat" with contents
+[
+@echo off
+\pos\temp\POSTest\Debug\POSTest.exe
+]
+Creating command line "C:\DOCUME~1\zsr\LOCALS~1\Temp\RSP1CB.bat"
+Unit Testing ...
+...............................................
+
+OK (47)
+
+
+
+<h3>Results</h3>
+POSTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
